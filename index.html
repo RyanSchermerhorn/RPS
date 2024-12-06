@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Rock Paper Scissors</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/demo.js"></script>
+</head>
+	<header>Rock Paper Scissors</header>
+
+	<main>
+		<!-- Play -->
+		<button onclick="play()" id = "play">Play</button>
+		<br>
+		<br>
+
+		<div id ="Buttons">
+			
+			<button onclick="buttonInput(0)" id = "rock">Rock<br><img src="images/Rock.png"></button>
+			<br>
+			
+			<button onclick="buttonInput(1)" id = "paper">Paper<br><img src="images/Paper.png"></button>
+			<br>
+
+			<button onclick="buttonInput(2)" id = "scissors">Scissors<br><img src="images/Scissors.png"></button>
+		</div>
+
+		<!-- Output -->
+		<div>
+			<div id ="timer">Rock Paper Scissors!</div>
+			<br>
+
+			You chose:
+			<div id ="player">None</div>
+			<br>
+
+			Computer chose:
+			<div id ="ai">None</div>
+			<br>
+
+			Outcome:
+			<div id ="result">None</div>
+			<br>
+
+			Score:
+			<div id ="score">0 - 0</div>
+			<br>
+		</div>
+
+	</main>
+
+</body>
+</html>
